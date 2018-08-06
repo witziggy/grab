@@ -1,0 +1,132 @@
+{ margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Sanomat Grab Web', sans-serif;
+    font-weight: 500;
+}
+
+nav {
+    height: 80px;
+    background-color: white;
+}
+
+section {
+    height: 150px;
+    background-color: green;
+}
+section2 {
+    height: 250px;
+    background-color: white;
+}
+
+section3 {
+    height: 250px;
+    background-color: red;
+}
+
+footer {
+    height: 538px;
+    background-color: green;
+}
+
+.container {
+    height: inherit; /* get parent height */
+    width: 970px;   /* add 970px for smaller screen */
+    padding: 0 15px;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .grab-logo {
+    width: 91px;
+    height: 35px;
+  }
+
+.navcontainer1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    list-style-type: none;
+}
+
+.navcontainer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin-left: auto;
+    list-style-type: none;
+}
+.navlist {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+  }
+  
+nav li {
+      position: relative;
+      justify-content: space-between;
+  }
+
+nav a:hover {
+      color: #00b13f;
+  }
+
+li:grab-logo(1) {
+    margin-right: auto; /*applied only to the right */
+}
+
+.grab-pay {
+    height: 30px;
+    }
+    
+section {
+    padding: 15px 30px;
+    line-height: 1;
+    font-size: 1.15em;
+    list-style-type: none;
+    margin-top: 60px;
+    height: 200px;
+    }
+
+section a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+
+section h1 {
+        display: block;
+        color: white;
+        text-decoration: none;
+        width: 200px;
+        margin-bottom: 20px;
+        }
+
+nav a:hover {
+        color: green;
+    }
+
+h1 {
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: 500px;
+}
+
+.button-style {
+    padding: 10px 20px;
+    font-size: 20;
+    margin-top: 25px;
+}
+
+.button-color {
+    background-color: green;
+    border-color: green;
+    border-radius: 4px;
+}
